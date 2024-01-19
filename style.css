@@ -1,0 +1,36 @@
+body {
+    font-family: "Alegreya Sans", "Open Sans", Arial, sans-serif;
+    background-color: burlywood;
+    max-width: 1000px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.index h1 {
+    color: #222200
+}
+
+ul {
+    list-style: square;
+    line-height: 180%;
+}
+
+ul ul {
+    list-style: circle;
+    line-height: normal;
+}
+
+.index ul {
+    list-style: none;
+    line-height: 200%;
+    font-size: 26px;
+}
+
+.recipe {
+    outline: auto;
+    background-color: #ffd54cc9;
+}
