@@ -35,6 +35,11 @@ ol li {
     color: #222200
 }
 
+.img-box {
+    width: max-content;
+    margin: 0 auto;
+}
+
 .index ul {
     list-style: none;
     line-height: 200%;
