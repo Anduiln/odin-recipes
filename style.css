@@ -30,6 +30,11 @@ ol li {
     padding: 3px 0;
 }
 
+.centre-img {
+    display: block;
+    margin: 0 auto;
+}
+
 
 .index h1 {
     color: #222200
