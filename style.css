@@ -1,17 +1,19 @@
 body {
     font-family: "Alegreya Sans", "Open Sans", Arial, sans-serif;
     background-color: burlywood;
-    max-width: 1000px;
+    padding: 20px;
+    width: max-content;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: 50px;
-    text-align: center;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.index h1 {
-    color: #222200
+p {
+    padding-left: 15px;
 }
 
 ul {
@@ -24,13 +26,41 @@ ul ul {
     line-height: normal;
 }
 
+ol li {
+    padding: 3px 0;
+}
+
+
+.index h1 {
+    color: #222200
+}
+
 .index ul {
     list-style: none;
     line-height: 200%;
     font-size: 26px;
 }
 
+.index-recipes {
+    padding: 10px 50px;
+}
+
+.recipe-link {
+    display: inline-block;
+    padding: 0 12px;
+    margin: 0 6px;
+    border: dotted gold 1px; 
+    background-color: peru;
+}
+
+
+.description {
+    width: 700px;
+}
+
 .recipe {
     outline: auto;
     background-color: #ffd54cc9;
+    width: 600px;
+    padding: 5px 15px;
 }
